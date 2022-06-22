@@ -14,36 +14,72 @@ import static org.junit.jupiter.api.Assertions.*;
 class HorseTest {
 
     @Test
-    void firtsParameterNullConstructor(){
+    void firtsParameterNullConstructorTypeEception(){
         Throwable exception = assertThrows(IllegalArgumentException.class, ()->{new Horse(null,1.0,1.0);} );
+    }
+    @Test
+    void firtsParameterNullConstructorTextEception(){
+        Throwable exception = new Throwable();
+        try{
+            new Horse(null,1.0,1.0);
+        }catch (Exception e){
+            exception = e;
+        }
 
-        assertEquals(exception.getMessage(),"Name cannot be null.");
+        assertEquals("Name cannot be null.", exception.getMessage());
     }
 
     @ParameterizedTest
     @MethodSource("argsProviderFactory")
-    void firtsParameterWhiteSpaceConstructor(String argument) {
+    void firtsParameterWhiteSpaceConstructorTypeEception(String argument) {
         Throwable exception = assertThrows(IllegalArgumentException.class, ()->{new Horse(argument,1.0,1.0);} );
-
-        assertEquals(exception.getMessage(),"Name cannot be blank.");
     }
+    @ParameterizedTest
+    @MethodSource("argsProviderFactory")
+    void firtsParameterWhiteSpaceConstructorTextEception(String argument) {
+        Throwable exception = new Throwable();
+        try{
+            new Horse(argument,1.0,1.0);
+        }catch (Exception e){
+            exception = e;
+        }
 
+        assertEquals("Name cannot be blank.", exception.getMessage());
+    }
     static Stream<String> argsProviderFactory() {
         return Stream.of("", "  ", "        ");
     }
 
     @Test
-    void secondParameterNegativeNumberConstructor(){
+    void secondParameterNegativeNumberConstructorTypeEception(){
         Throwable exception = assertThrows(IllegalArgumentException.class, ()->{new Horse("second",-1.0,1.0);} );
+    }
+    @Test
+    void secondParameterNegativeNumberConstructorTextEception(){
+        Throwable exception = new Throwable();
+        try{
+            new Horse("second",-1.0,1.0);
+        }catch (Exception e){
+            exception = e;
+        }
 
-        assertEquals(exception.getMessage(),"Speed cannot be negative.");
+        assertEquals("Speed cannot be negative.", exception.getMessage());
     }
 
     @Test
-    void thirdParameterNegativeNumberConstructor(){
+    void thirdParameterNegativeNumberConstructorTypeEception(){
         Throwable exception = assertThrows(IllegalArgumentException.class, ()->{new Horse("second",1.0,-1.0);} );
+    }
+    @Test
+    void thirdParameterNegativeNumberConstructorTextEception(){
+        Throwable exception = new Throwable();
+        try{
+            new Horse("second",1.0,-1.0);
+        }catch (Exception e){
+            exception = e;
+        }
 
-        assertEquals( exception.getMessage(),"Distance cannot be negative.");
+        assertEquals( "Distance cannot be negative.", exception.getMessage());
     }
 
     @Test
@@ -51,7 +87,7 @@ class HorseTest {
         String name = new String("Name");
         Horse horse = new Horse(name,1.0,1.0);
 
-        assertEquals(horse.getName(),name);
+        assertEquals(name, horse.getName());
     }
 
     @Test
@@ -59,14 +95,14 @@ class HorseTest {
         double speed = 3.0;
         Horse horse = new Horse("testSpeed",speed,1.0);
 
-        assertEquals(horse.getSpeed(),speed);
+        assertEquals(speed, horse.getSpeed());
     }
 
     @Test
     void testGetDistanceWithNull(){
         Horse horse = new Horse("testSpeed",1.0);
 
-        assertEquals(horse.getDistance(),0);
+        assertEquals(0,horse.getDistance());
     }
 
     @Test
@@ -74,26 +110,32 @@ class HorseTest {
         double distance = 3.0;
         Horse horse = new Horse("testSpeed",1.0,distance);
 
-        assertEquals(horse.getDistance(),distance);
+        assertEquals(distance, horse.getDistance());
     }
 
     @Test
-    void testMove() {
-
-
+    void testMoveMockObject() {
         try (MockedStatic<Horse> mockhorse =  Mockito.mockStatic( Horse.class)) {
             //добавляем правило
-
-            double Mockresult = Horse.getRandomDouble(0.2, 0.9);
-            mockhorse.when(()->Horse.getRandomDouble(0.2, 0.9)).thenReturn(Mockresult);
-
-
+            Horse horse = new Horse("test",1.0,1.0);
+            horse.move();
             mockhorse.verify(()->Horse.getRandomDouble(0.2, 0.9));
-
-            assertEquals(Mockresult, Horse.getRandomDouble(0.2, 0.9));
         }
     }
 
-
-
+    @ParameterizedTest
+    @MethodSource("argsDistanse")
+    void testMoveMockObject(Double param) {
+        try (MockedStatic<Horse> mockhorse =  Mockito.mockStatic( Horse.class)) {
+            //добавляем правило
+            mockhorse.when(()->Horse.getRandomDouble(0.2, 0.9)).thenReturn(param);
+            Horse horse = new Horse("test",1.0);
+            horse.move();
+            double distance = horse.getSpeed() * param;
+            assertEquals(distance, horse.getDistance());
+        }
+    }
+    static Stream<Double> argsDistanse() {
+        return Stream.of(1.0, 2.0, 3.0);
+    }
 }

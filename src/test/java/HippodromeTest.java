@@ -12,17 +12,35 @@ import static org.mockito.Mockito.withSettings;
 class HippodromeTest {
 
     @Test
-    void parameterNullConstructor(){
+    void parameterNullConstructorTypeEception(){
         Throwable exception = assertThrows(IllegalArgumentException.class, ()->{new Hippodrome(null);} );
+    }
+    @Test
+    void parameterNullConstructorTextEception(){
+        Throwable exception = new Throwable();
+        try{
+            new Hippodrome(null);
+        }catch (Exception e){
+            exception = e;
+        }
 
-        assertEquals(exception.getMessage(),"Horses cannot be null.");
+        assertEquals("Horses cannot be null.", exception.getMessage());
     }
 
     @Test
-    void parameterZeroSizeListConstructor(){
+    void parameterZeroSizeListConstructorTypeEception(){
         Throwable exception = assertThrows(IllegalArgumentException.class, ()->{new Hippodrome(new ArrayList<Horse>());} );
+    }
+    @Test
+    void parameterZeroSizeListConstructorTextEception(){
+        Throwable exception = new Throwable();
+        try{
+            new Hippodrome(new ArrayList<Horse>());
+        }catch (Exception e){
+            exception = e;
+        }
 
-        assertEquals(exception.getMessage(),"Horses cannot be empty.");
+        assertEquals("Horses cannot be empty.", exception.getMessage());
     }
 
     @Test
@@ -34,7 +52,7 @@ class HippodromeTest {
         }
         Hippodrome hippodrome = new Hippodrome(list);
 
-        assertEquals(hippodrome.getHorses(), list);
+        assertEquals(list,hippodrome.getHorses());
     }
 
     @Test
@@ -64,6 +82,6 @@ class HippodromeTest {
         list.add(new Horse("test",1.0,1.0));
         list.add(new Horse("Win",1.0,5.0));
         Hippodrome hippodrome = Mockito.spy(new Hippodrome(list));
-        assertEquals(hippodrome.getWinner(),list.get(2));
+        assertEquals(list.get(2),hippodrome.getWinner());
     }
 }

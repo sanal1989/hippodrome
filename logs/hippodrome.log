@@ -1,0 +1,157 @@
+2022-06-22 16:27:08.550 ERROR [main] [Hippodrome.<init>(Hippodrome.java:17)] - Horses list is null
+2022-06-22 16:27:08.564 ERROR [main] [Hippodrome.<init>(Hippodrome.java:20)] - Horses list is empty
+2022-06-22 16:27:09.917 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:25)] -  Создание Hippodrome, лошадей [50]
+2022-06-22 16:27:09.968 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse1], скорость [10.0]
+2022-06-22 16:27:09.968 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse2], скорость [20.0]
+2022-06-22 16:27:09.969 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse3], скорость [30.0]
+2022-06-22 16:27:09.969 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse4], скорость [40.0]
+2022-06-22 16:27:09.969 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse5], скорость [50.0]
+2022-06-22 16:27:09.969 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse6], скорость [60.0]
+2022-06-22 16:27:09.970 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse7], скорость [70.0]
+2022-06-22 16:27:09.970 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse8], скорость [80.0]
+2022-06-22 16:27:09.971 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse9], скорость [90.0]
+2022-06-22 16:27:09.971 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse10], скорость [100.0]
+2022-06-22 16:27:09.971 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse11], скорость [110.0]
+2022-06-22 16:27:09.972 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse12], скорость [120.0]
+2022-06-22 16:27:09.972 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse13], скорость [130.0]
+2022-06-22 16:27:09.972 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse14], скорость [140.0]
+2022-06-22 16:27:09.973 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse15], скорость [150.0]
+2022-06-22 16:27:09.973 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse16], скорость [160.0]
+2022-06-22 16:27:09.973 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse17], скорость [170.0]
+2022-06-22 16:27:09.974 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse18], скорость [180.0]
+2022-06-22 16:27:09.974 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse19], скорость [190.0]
+2022-06-22 16:27:09.974 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse20], скорость [200.0]
+2022-06-22 16:27:09.975 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse21], скорость [210.0]
+2022-06-22 16:27:09.975 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse22], скорость [220.0]
+2022-06-22 16:27:09.975 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse23], скорость [230.0]
+2022-06-22 16:27:09.975 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse24], скорость [240.0]
+2022-06-22 16:27:09.976 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse25], скорость [250.0]
+2022-06-22 16:27:09.976 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse26], скорость [260.0]
+2022-06-22 16:27:09.976 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse27], скорость [270.0]
+2022-06-22 16:27:09.977 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse28], скорость [280.0]
+2022-06-22 16:27:09.977 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse29], скорость [290.0]
+2022-06-22 16:27:09.977 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse30], скорость [300.0]
+2022-06-22 16:27:09.979 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:25)] -  Создание Hippodrome, лошадей [30]
+2022-06-22 16:27:09.984 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 16:27:09.984 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 16:27:09.985 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Win], скорость [1.0]
+2022-06-22 16:27:09.985 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:25)] -  Создание Hippodrome, лошадей [3]
+2022-06-22 16:31:14.643 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [3.0]
+2022-06-22 16:31:14.662 ERROR [main] [Horse.<init>(Horse.java:25)] - Distance is negative
+2022-06-22 16:31:15.710 ERROR [main] [Horse.<init>(Horse.java:21)] - Speed is negative
+2022-06-22 16:31:15.716 ERROR [main] [Horse.<init>(Horse.java:14)] - Name is null
+2022-06-22 16:31:15.721 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Name], скорость [1.0]
+2022-06-22 16:31:15.727 ERROR [main] [Horse.<init>(Horse.java:14)] - Name is null
+2022-06-22 16:31:15.822 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 16:31:15.834 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 16:31:15.841 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 16:31:15.847 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [1.0]
+2022-06-22 16:31:15.851 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [1.0]
+2022-06-22 16:31:29.607 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [3.0]
+2022-06-22 16:31:29.624 ERROR [main] [Horse.<init>(Horse.java:25)] - Distance is negative
+2022-06-22 16:31:30.639 ERROR [main] [Horse.<init>(Horse.java:21)] - Speed is negative
+2022-06-22 16:31:30.643 ERROR [main] [Horse.<init>(Horse.java:14)] - Name is null
+2022-06-22 16:31:30.648 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Name], скорость [1.0]
+2022-06-22 16:31:30.653 ERROR [main] [Horse.<init>(Horse.java:14)] - Name is null
+2022-06-22 16:31:30.743 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 16:31:30.756 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 16:31:30.761 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 16:31:30.766 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [1.0]
+2022-06-22 16:31:30.771 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [1.0]
+2022-06-22 16:42:59.551 ERROR [main] [Horse.<init>(Horse.java:25)] - Distance is negative
+2022-06-22 16:42:59.577 ERROR [main] [Horse.<init>(Horse.java:21)] - Speed is negative
+2022-06-22 16:42:59.583 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [3.0]
+2022-06-22 16:43:00.630 ERROR [main] [Horse.<init>(Horse.java:25)] - Distance is negative
+2022-06-22 16:43:00.635 ERROR [main] [Horse.<init>(Horse.java:21)] - Speed is negative
+2022-06-22 16:43:00.639 ERROR [main] [Horse.<init>(Horse.java:14)] - Name is null
+2022-06-22 16:43:00.644 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Name], скорость [1.0]
+2022-06-22 16:43:00.737 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 16:43:00.748 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 16:43:00.754 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 16:43:00.762 ERROR [main] [Horse.<init>(Horse.java:14)] - Name is null
+2022-06-22 16:43:00.771 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 16:43:00.775 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 16:43:00.781 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 16:43:00.785 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [1.0]
+2022-06-22 16:43:00.790 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [1.0]
+2022-06-22 16:52:24.290 ERROR [main] [Hippodrome.<init>(Hippodrome.java:17)] - Horses list is null
+2022-06-22 16:52:24.308 ERROR [main] [Hippodrome.<init>(Hippodrome.java:20)] - Horses list is empty
+2022-06-22 16:52:25.576 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:25)] -  Создание Hippodrome, лошадей [50]
+2022-06-22 16:52:25.609 ERROR [main] [Hippodrome.<init>(Hippodrome.java:17)] - Horses list is null
+2022-06-22 16:52:25.617 ERROR [main] [Hippodrome.<init>(Hippodrome.java:20)] - Horses list is empty
+2022-06-22 16:52:25.625 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse1], скорость [10.0]
+2022-06-22 16:52:25.626 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse2], скорость [20.0]
+2022-06-22 16:52:25.626 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse3], скорость [30.0]
+2022-06-22 16:52:25.627 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse4], скорость [40.0]
+2022-06-22 16:52:25.627 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse5], скорость [50.0]
+2022-06-22 16:52:25.627 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse6], скорость [60.0]
+2022-06-22 16:52:25.627 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse7], скорость [70.0]
+2022-06-22 16:52:25.628 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse8], скорость [80.0]
+2022-06-22 16:52:25.628 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse9], скорость [90.0]
+2022-06-22 16:52:25.628 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse10], скорость [100.0]
+2022-06-22 16:52:25.628 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse11], скорость [110.0]
+2022-06-22 16:52:25.629 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse12], скорость [120.0]
+2022-06-22 16:52:25.629 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse13], скорость [130.0]
+2022-06-22 16:52:25.629 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse14], скорость [140.0]
+2022-06-22 16:52:25.629 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse15], скорость [150.0]
+2022-06-22 16:52:25.630 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse16], скорость [160.0]
+2022-06-22 16:52:25.630 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse17], скорость [170.0]
+2022-06-22 16:52:25.630 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse18], скорость [180.0]
+2022-06-22 16:52:25.630 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse19], скорость [190.0]
+2022-06-22 16:52:25.630 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse20], скорость [200.0]
+2022-06-22 16:52:25.631 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse21], скорость [210.0]
+2022-06-22 16:52:25.631 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse22], скорость [220.0]
+2022-06-22 16:52:25.631 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse23], скорость [230.0]
+2022-06-22 16:52:25.631 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse24], скорость [240.0]
+2022-06-22 16:52:25.631 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse25], скорость [250.0]
+2022-06-22 16:52:25.632 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse26], скорость [260.0]
+2022-06-22 16:52:25.632 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse27], скорость [270.0]
+2022-06-22 16:52:25.632 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse28], скорость [280.0]
+2022-06-22 16:52:25.633 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse29], скорость [290.0]
+2022-06-22 16:52:25.633 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Number horse30], скорость [300.0]
+2022-06-22 16:52:25.634 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:25)] -  Создание Hippodrome, лошадей [30]
+2022-06-22 16:52:25.637 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 16:52:25.638 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 16:52:25.638 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Win], скорость [1.0]
+2022-06-22 16:52:25.638 DEBUG [main] [Hippodrome.<init>(Hippodrome.java:25)] -  Создание Hippodrome, лошадей [3]
+2022-06-22 17:29:48.518 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 19:00:29.983 ERROR [main] [Horse.<init>(Horse.java:25)] - Distance is negative
+2022-06-22 19:00:29.999 ERROR [main] [Horse.<init>(Horse.java:21)] - Speed is negative
+2022-06-22 19:00:29.999 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [3.0]
+2022-06-22 19:00:30.015 ERROR [main] [Horse.<init>(Horse.java:25)] - Distance is negative
+2022-06-22 19:00:30.015 ERROR [main] [Horse.<init>(Horse.java:21)] - Speed is negative
+2022-06-22 19:00:30.015 ERROR [main] [Horse.<init>(Horse.java:14)] - Name is null
+2022-06-22 19:00:30.015 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Name], скорость [1.0]
+2022-06-22 19:00:30.061 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 19:00:30.061 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 19:00:30.077 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 19:00:30.967 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 19:00:31.014 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 19:00:31.030 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 19:00:31.061 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 19:00:31.077 ERROR [main] [Horse.<init>(Horse.java:14)] - Name is null
+2022-06-22 19:00:31.077 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 19:00:31.077 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 19:00:31.092 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 19:00:31.092 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [1.0]
+2022-06-22 19:00:31.092 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [1.0]
+2022-06-22 19:01:19.267 ERROR [main] [Horse.<init>(Horse.java:25)] - Distance is negative
+2022-06-22 19:01:19.282 ERROR [main] [Horse.<init>(Horse.java:21)] - Speed is negative
+2022-06-22 19:01:19.282 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [3.0]
+2022-06-22 19:01:19.282 ERROR [main] [Horse.<init>(Horse.java:25)] - Distance is negative
+2022-06-22 19:01:19.298 ERROR [main] [Horse.<init>(Horse.java:21)] - Speed is negative
+2022-06-22 19:01:19.298 ERROR [main] [Horse.<init>(Horse.java:14)] - Name is null
+2022-06-22 19:01:19.298 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [Name], скорость [1.0]
+2022-06-22 19:01:19.345 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 19:01:19.345 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 19:01:19.361 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 19:01:20.267 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 19:01:20.329 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 19:01:20.345 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 19:01:20.345 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [test], скорость [1.0]
+2022-06-22 19:01:20.360 ERROR [main] [Horse.<init>(Horse.java:14)] - Name is null
+2022-06-22 19:01:20.376 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 19:01:20.376 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 19:01:20.392 ERROR [main] [Horse.<init>(Horse.java:17)] - Name is blank
+2022-06-22 19:01:20.392 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [1.0]
+2022-06-22 19:01:20.407 DEBUG [main] [Horse.<init>(Horse.java:32)] - Создание Horse, имя [testSpeed], скорость [1.0]
